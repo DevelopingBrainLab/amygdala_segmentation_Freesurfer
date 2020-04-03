@@ -29,8 +29,16 @@ Automatic files/directories generations and resulting data readings for using th
 - The script will create a "result" directory containing the 3 csv files. 
 - This "result" directory will be placed under your currently working directory ("get_vol.py" needs to present under your working directory, too).
 - The csv files are:
-	1. "all_vol.csv" (all volume data for both left and right amygdala), 
+	1. "all_vol.csv" (all volume data for both left and right amygdala),
 	2. "right_vol.csv" (just right amygdala volume), 
 	3. "left_vol.csv" (just left amygdala volume). 
 - To compile: `python get_vol.py`
+
+Some examples of the format of the csv files:
+
+![sample: all_vol.csv](/images/all_vol.png) 
+
+![sample: right_vol.csv](/images/right_vol.png) 
+
+![sample: left_vol.csv](/images/left_vol.png)
 
